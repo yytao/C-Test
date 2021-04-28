@@ -34,19 +34,27 @@ int main(){
 	//指针和数组 
 	//int var[3] = {10, 100, 1000};
 	//*(var + 2) = 500;
+	//cout << var[2] << endl;
 	
-	//数组指针 
-	int arr1[2][2] = {{1},{2}};
-	int arr2[2][2] = {{3},{4}};
+	//数组指针
+	// int (*p)[2][1];
+	// int intArray[2][1] = {{1}, {2}};
+	// cout << intArray[0][0] << endl;
+	// p = &intArray;
+	// cout << (*p+0) << endl;
+	// cout << intArray << endl;
+
+
+	//指针数组
+	// double *p;
+	// double doubleArray[10] = {1.1, 1.2};
+	// p = doubleArray;
+	// cout << doubleArray+1 << endl;
+	// cout << &p[1] << endl;
+
+
 	
-	int (*p)[2];
-	
-	p = arr1;
-	p++;
-	p = arr2;
-	
-	cout << p[0][0];
-	
-	
-	return 0;
+
+
+
 }
