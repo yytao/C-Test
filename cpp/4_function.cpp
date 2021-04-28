@@ -5,6 +5,7 @@ using namespace std;
 
 
 int swap(int *, int *);
+int swap_(int &, int &);
 
 int main(){
 	
@@ -12,11 +13,11 @@ int main(){
 	int y = 2;
 	
 	//引用调用
-	//int a = swap_(x, y);
+	int a = swap_(x, y);
 	
 	//指针调用 
-	int a = swap(&x, &y);
-	
+	//int a = swap(&x, &y);
+
 	cout << x << endl;
 	cout << y << endl;
 	
@@ -38,6 +39,8 @@ int swap_(int &x, int &y){
 	temp = x;
 	x = y;
 	y = temp;
+
+	cout << "x=" << &x << endl;
 	
 	return 0;
 }

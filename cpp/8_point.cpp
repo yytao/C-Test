@@ -2,6 +2,18 @@
 
 using namespace std;
 
+int getSum(int *a, int *b){
+	
+	*a = 4;
+	return *a;
+}
+
+int * updateArr(int a[]){
+	a[2] = 2;
+	
+	return a;
+}
+
 //指针 
 int main(){
 	
@@ -53,8 +65,14 @@ int main(){
 	// cout << &p[1] << endl;
 
 
-	
+	//函数内传递指针
+	int a = 2;
+	getSum(&a, &a);
+	int arr[] = {1, 2, 3};
+	int *b = updateArr(arr);
 
+	cout << &b[2] << endl;
+	cout << &arr[2] << endl;
 
 
 }
