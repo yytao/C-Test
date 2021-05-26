@@ -14,11 +14,18 @@ struct Books
 
 int main()
 {
-    struct Books book;
+    struct Books book1, book2;
+    strcpy(book1.title, "第1本书");
+    strcpy(book2.title, "第2本书");
+    
+    printbook(book1);
+    printbook(book2);
+    
+}
 
-    strcpy(book.title, "张三的书");
+void printbook(struct Books book)
+{
 
     cout << book.title << endl;
-
 }
 
