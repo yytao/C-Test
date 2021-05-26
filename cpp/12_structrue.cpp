@@ -2,22 +2,23 @@
 #include <cstring>
 using namespace std;
 
+void printbook(struct Books);
+
+struct Books
+{
+    char title[50];
+    char author[50];
+    char subject[50];
+    int book_id;
+};
+
 int main()
 {
-    typedef struct
-    {
-        char title[50];
-        char author[50];
-        char subject[50];
-        int book_id;
-    }book;
+    struct Books book;
 
+    strcpy(book.title, "张三的书");
 
-    book Book1;
-
-    strcpy(Book1.title, "张三的书");
-
-    cout << Book1.title << endl;
-
+    cout << book.title << endl;
 
 }
+
