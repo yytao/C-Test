@@ -21,6 +21,11 @@ int main()
     printbook(book1);
     printbook(book2);
     
+    struct Books *struct_pointer;
+    struct_pointer = &book1;
+    
+    cout << "pointer: " << struct_pointer->title << endl;
+
 }
 
 void printbook(struct Books book)
