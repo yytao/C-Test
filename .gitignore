@@ -1,3 +1,5 @@
+.vscode/
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -69,6 +71,7 @@ Carthage/Build/
 # Accio dependency management
 Dependencies/
 .accio/
+
 
 # fastlane
 #
