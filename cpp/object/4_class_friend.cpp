@@ -1,3 +1,11 @@
+/*
+ *
+ * Time：2021-6-3
+ * Mark：
+ * 1、friend 友元函数
+ * 
+ */
+
 #include <iostream>
 using namespace std;
 
