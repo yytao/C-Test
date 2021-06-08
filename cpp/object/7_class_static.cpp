@@ -25,6 +25,10 @@ class Box
         {
             return length * breadth * height;
         }
+        static int getCount()
+        {
+            return objectCount;
+        }
 
     private:
         double length;
@@ -36,9 +40,12 @@ int Box::objectCount = 0;
 
 int main()
 {
+    cout << "before :" << Box::getCount() << endl;
+    
     Box Box1(3.3, 1.2, 1.5);
     Box Box2(8.5, 6.0, 2.0);
 
-    cout << "Total objects :" << Box::objectCount << endl;
+    cout << "Total objects :" << Box::getCount() << endl;
 
 }
+
