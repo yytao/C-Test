@@ -1,6 +1,6 @@
 /*
  *
- * Time：2021-6-9
+ * Time：2021-6-10
  * Mark：
  * 1、class 继承
  * * 面向对象程序设计中最重要的一个概念是继承。继承允许我们依据另一个类来定义一个类，
@@ -33,7 +33,17 @@ class Shape
         int height;
 };
 
-class Rectangle : public Shape
+class PaintCost
+{
+    public:
+        int getCost(int area)
+        {
+            return area * 70;
+        }
+};
+
+
+class Rectangle: public Shape, public PaintCost
 {
     public:
         int getArea()
@@ -44,10 +54,19 @@ class Rectangle : public Shape
 
 int main()
 {
-    Rectangle Rect;
-    Rect.setWidth(5);
-    Rect.setHeight(7);
 
-    cout << "Total area: " << Rect.getArea() << endl;
+    Rectangle Rect;
+    int area;
+
+    Rect.setHeight(5);
+    Rect.setWidth(7);
+
+    area = Rect.getArea();
+
+    cout << "Total area: " << area << endl;
+
+    cout << "Total pain cost : $" << Rect.getCost(area) << endl;
+
 
 }
+
