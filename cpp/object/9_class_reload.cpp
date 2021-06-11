@@ -12,16 +12,9 @@ class printData
         {
             cout << "Printing double: " << f << endl;
         }
-        void print(char * const c)
+        void print(const char *  c)
         {
-            //const char a[] = "Hello";
-            //a[0] = 'a';
-            //cout << a << endl;
-            char a[10] = "123456";
-            char * const d = a;
-            *(d+1) = 'a';
-            
-            cout << "Printing char: " << d << endl;
+            cout << "Printing char: " << c << endl;
         }
 };
 
