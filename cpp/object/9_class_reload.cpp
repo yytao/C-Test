@@ -1,3 +1,9 @@
+/**
+ *
+ * 函数重载
+ * 
+ * 
+ */
 #include <iostream>
 using namespace std;
 
@@ -12,7 +18,7 @@ class printData
         {
             cout << "Printing double: " << f << endl;
         }
-        void print(const char *  c)
+        void print(char *  c)
         {
             cout << "Printing char: " << c << endl;
         }
