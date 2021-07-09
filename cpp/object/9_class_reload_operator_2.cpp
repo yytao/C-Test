@@ -86,7 +86,7 @@ int main()
     // cout << c << endl;
 
 
-    //重载赋值运算符
+    //重载赋值运算符    相当于复制构造函数
     //a = b;
     //a.displayDistance();
 

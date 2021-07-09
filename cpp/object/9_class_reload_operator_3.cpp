@@ -62,5 +62,4 @@ int main()
     b.displayTime();
     b++;
     b.displayTime();
-    
 }
