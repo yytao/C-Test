@@ -27,15 +27,14 @@ class safearray
 
             return arr[i];
         }
-
-        
-    
-
-
 };
 
 
 int main()
 {
+    safearray A;
+
+    cout << A[2] << endl;
+    cout << A[11] << endl;
 
 }
