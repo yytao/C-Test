@@ -1,3 +1,8 @@
+/**
+ * 1、重载下标运算符[]，传递数字下标，获取元素
+ * 
+ */
+
 #include <iostream>
 using namespace std;
 const int SIZE = 10;

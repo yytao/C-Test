@@ -1,3 +1,11 @@
+/**
+ * 1、重载运算符减号、小于号
+ * 2、重载cin以及cout
+ * 3、重载等于号=，与复制构造函数功能类似
+ * 4、重载（），作用：在对象初始化之后，可再次初始化对象内的属性值
+ * 
+ */ 
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
