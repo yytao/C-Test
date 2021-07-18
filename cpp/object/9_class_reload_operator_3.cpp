@@ -1,3 +1,9 @@
+/**
+ * 1、重载前缀自增
+ * 2、重载后缀自增
+ * 
+ */
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -21,7 +27,7 @@ class Time
             cout << "H:" << hours << setw(5) << "S:" << minutes << endl;
         }
 
-        Time operator ++()
+        Time operator ++()  //重载前缀递增运算符
         {
             ++minutes;
             if(minutes >= 60)
@@ -33,7 +39,7 @@ class Time
             return Time(hours, minutes);
         }
 
-      Time operator++( int )
+      Time operator++( int )    //重载后缀递增运算符
       {
             ++minutes;
             if(minutes >= 60)

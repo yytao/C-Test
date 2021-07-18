@@ -1,3 +1,8 @@
+/**
+ * 1、重载下标运算符[]，传递数字下标，获取元素
+ * 
+ */
+
 #include <iostream>
 using namespace std;
 const int SIZE = 10;
@@ -27,15 +32,14 @@ class safearray
 
             return arr[i];
         }
-
-        
-    
-
-
 };
 
 
 int main()
 {
+    safearray A;
+
+    cout << A[2] << endl;
+    cout << A[11] << endl;
 
 }
