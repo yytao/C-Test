@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
+//æ•°æ®ç±»å‹
 
 int main(){
 	
 	/**
-	 * 1¡¢»ù±¾µÄÄÚÖÃÀàĞÍ
+	 * 1ã€åŸºæœ¬çš„å†…ç½®ç±»å‹
 	 * 
 	 */
 	bool a = false;
@@ -16,10 +17,10 @@ int main(){
 	wchar_t g;	
 
 	/**
-	 * 2¡¢Ò»Ğ©»ù±¾ÀàĞÍ¿ÉÒÔÊ¹ÓÃÒ»¸ö»ò¶à¸öÀàĞÍĞŞÊÎ·û½øĞĞĞŞÊÎ
+	 * 2ã€ä¸€äº›åŸºæœ¬ç±»å‹å¯ä»¥ä½¿ç”¨ä¸€ä¸ªæˆ–å¤šä¸ªç±»å‹ä¿®é¥°ç¬¦è¿›è¡Œä¿®é¥°
 	 * 
 	 */
-	unsigned int h = 1;		//Ä¬ÈÏsigned
+	unsigned int h = 1;		//é»˜è®¤signed
 	short int i = 1;
 	long int j = 1;
 
@@ -33,7 +34,7 @@ int main(){
 
 
 	/**
-	 * 3¡¢typedefÉùÃ÷
+	 * 3ã€typedefå£°æ˜
 	 * 
 	 */
 	typedef int feet;
@@ -43,7 +44,7 @@ int main(){
 
 	
 	/**
-	 * 4¡¢Ã¶¾ÙÀàĞÍ
+	 * 4ã€æšä¸¾ç±»å‹
 	 * 
 	 */
 	enum color

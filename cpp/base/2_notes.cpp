@@ -1,23 +1,22 @@
 #include <iostream>
-
 using namespace std;
-
+//æ³¨é‡Š
 
 
 int main(){
 	
-	//²âÊÔÊı¾İÀàĞÍÕ¼¶àÉÙ×Ö½Ú sizeof
+	//æµ‹è¯•æ•°æ®ç±»å‹å å¤šå°‘å­—èŠ‚ sizeof
 //	cout << sizeof(long long) << endl;
 //	cout << sizeof(long double) << endl;
 
-	//²âÊÔforÑ­»·
+	//æµ‹è¯•forå¾ªç¯
 //	int i;
 //	cin >> i;
 //	for(i; i>0; i--){
 //		cout << i << endl;
 //	}
 	
-	//while Ñ­»·
+	//while å¾ªç¯
 //	int i = 10;
 //	while(i>0){
 //		cout << i << endl;
@@ -26,14 +25,14 @@ int main(){
 	
 
 
-	//while ¼ÆËãÆ÷
+	//while è®¡ç®—å™¨
 //	int a,b;
 //	while (cin>>a>>b){
-//		cout << "Ïà¼Ó½á¹ûÊÇ£º" << a+b<< endl;
+//		cout << "ç›¸åŠ ç»“æœæ˜¯ï¼š" << a+b<< endl;
 //	}
 	
 	
-	//forÑ­»·ÕÒ³öËùÓĞµÄËØÊı 
+	//forå¾ªç¯æ‰¾å‡ºæ‰€æœ‰çš„ç´ æ•° 
     int i;
     for (i=2; i <=100; i++)
     {
