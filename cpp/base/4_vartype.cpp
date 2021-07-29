@@ -19,7 +19,7 @@ int main()
 	int a, b, c;
 	int d = 3;
 
-	cout << a << endl;	//没有赋初始值的话，会出现预想不到的数字
+	cout << a << endl; //没有赋初始值的话，会出现预想不到的数字
 	cout << d << endl;
 
 	/**
@@ -43,13 +43,6 @@ int main()
 	 * 
 	 */
 	int g = 20;
-	
-
-	
-
-
-
-
 }
 
 int sum()

@@ -5,7 +5,8 @@ using namespace std;
 void func(void);
 static int countNum = 5;
 
-int main(){
+int main()
+{
 
 	/**
 	 * C++存储类
@@ -21,8 +22,7 @@ int main(){
 	//auto存储类：auto存储类是所有局部变量默认的存储类
 	//auto int month = 3;	//C++11不再支持
 	int mount = 1;
-	auto month = 3;		//自动判断类型
-	
+	auto month = 3; //自动判断类型
 
 	/**
 	 * register存储类：register存储类用于定义存储在寄存器中而不是RAM中的局部变量，这意味着变量的大小尺寸等于寄存器的大小，
@@ -31,9 +31,9 @@ int main(){
 	 */
 	register int miles;
 	miles = 100;
-	
-	int *a = &miles;		//编译器发现register变量被取地址后，register关键字的声明将变得无效
-	
+
+	int *a = &miles; //编译器发现register变量被取地址后，register关键字的声明将变得无效
+
 	cout << *a << endl;
 	cout << miles << endl;
 
@@ -47,11 +47,10 @@ int main(){
 	 * 在C++中，当static用在类数据成员时，会导致仅有一个该成员的副本被类的所有对象共享：也就是静态数据成员的概念
 	 * 
 	 */
-	while(countNum--)
+	while (countNum--)
 	{
 		func();
 	}
-
 
 	/**
 	 * extern存储类
@@ -72,12 +71,6 @@ int main(){
 	 * 
 	 * 
 	 */
-
-
-
-
-
-
 }
 
 void func()
@@ -87,4 +80,3 @@ void func()
 	cout << "变量countNum：" << countNum << endl;
 	j++;
 }
-

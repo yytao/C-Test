@@ -1,9 +1,10 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
-int main(){
-	
-	/**
+int main()
+{
+
+/**
 	 * C++常量：
 	 * 1、整数常量
 	 * 		1.1 整数常量可以是十进制、八进制和十六进制的常量。前缀指定基数：0x或0X表示十六进制，0表示八进制，不带前缀则默认表示十进制
@@ -28,19 +29,11 @@ int main(){
 	 * 
 	 */
 
-	//定义常量
-	#define WIDTH 5
+//定义常量
+#define WIDTH 5
 	cout << WIDTH << endl;
-
 
 	//const形式常量
 	const int HEIGHT = 10;
 	cout << HEIGHT << endl;
-
-
-
-
-
-
-	
 }

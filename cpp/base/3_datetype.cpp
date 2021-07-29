@@ -2,8 +2,9 @@
 using namespace std;
 //数据类型
 
-int main(){
-	
+int main()
+{
+
 	/**
 	 * 1、基本的内置类型
 	 * 
@@ -14,13 +15,13 @@ int main(){
 	float d = 1.1;
 	double e = 2.2;
 	//void f;
-	wchar_t g;	
+	wchar_t g;
 
 	/**
 	 * 2、一些基本类型可以使用一个或多个类型修饰符进行修饰
 	 * 
 	 */
-	unsigned int h = 1;		//默认signed
+	unsigned int h = 1; //默认signed
 	short int i = 1;
 	long int j = 1;
 
@@ -32,7 +33,6 @@ int main(){
 	cout << "size of double :" << sizeof(double) << endl;
 	cout << "size of wchar_t:" << sizeof(wchar_t) << endl;
 
-
 	/**
 	 * 3、typedef声明
 	 * 
@@ -42,30 +42,16 @@ int main(){
 	feet l = 20;
 	cout << l << endl;
 
-	
 	/**
 	 * 4、枚举类型
 	 * 
 	 */
 	enum color
 	{
-		red, green, blue
+		red,
+		green,
+		blue
 	} m;
 
 	cout << red << endl;
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-	
-} 
+}

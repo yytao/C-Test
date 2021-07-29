@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 	/**
 	 * 修饰符类型
 	 * signed
@@ -17,14 +18,13 @@ int main(){
 	 * 
 	 */
 
-	short i;					//有符号整数
-	short unsigned int j;		//无符号整数
+	short i;			  //有符号整数
+	short unsigned int j; //无符号整数
 
 	j = 50000;
 	i = j;
 	cout << i << endl;
 	cout << j << endl;
-
 
 	/**
 	 * C++中的类型限定符
@@ -33,8 +33,4 @@ int main(){
 	 * restrict		//由restrict修饰的指针是唯一一种访问它所指向的对象的方式，只有C99增加了新的类型限定符restrict
 	 * 
 	 */
-
-	
-
-
 }
