@@ -48,7 +48,7 @@ int main()
      * 
      * 
      */
-    
+
     double sumNumber;
     /**
      * 函数调用
@@ -58,24 +58,22 @@ int main()
     //传值调用
     int a = 3;
     int b = 4;
-    sumNumber = sum(a, b);  
+    sumNumber = sum(a, b);
     cout << sumNumber << endl;
 
     //指针调用
     int c = 10;
-    pointer(&c);        
+    pointer(&c);
     cout << c << endl;
 
     //引用调用
     int d = 10;
-    quote(d);       
+    quote(d);
     cout << d << endl;
-
 
     //参数的默认值
     int e = defaultParam(3);
     cout << e << endl;
-    
 }
 
 //函数定义==实际主体
@@ -89,22 +87,22 @@ int main()
  * 
  */
 
-int sum(int a, int b)   //传值调用
+int sum(int a, int b) //传值调用
 {
-    return a+b;
+    return a + b;
 }
 
-void pointer(int *c)    //指针调用
+void pointer(int *c) //指针调用
 {
     *c = 20;
 }
 
-void quote(int &d)      //引用调用
+void quote(int &d) //引用调用
 {
     d = 30;
 }
 
 int defaultParam(int a, int b, int c)
 {
-    return a*b;
+    return a * b;
 }
