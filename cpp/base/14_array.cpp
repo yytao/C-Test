@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 void function1(int *);
@@ -90,9 +91,18 @@ int main()
     cout << param1[2] << endl;
 
 
-    
+    /**
+     * 从函数返回数组
+     * C++不允许返回一个完整的数组作为函数的参数。但是可以通过指定不带索引的数组名来返回一个指向数组的指针
+     * 想要从函数返回一个数组，必须声明一个返回指针的函数
+     * int * myFunction() { }
+     * 
+     * 
+     */
 
-
+    int * rr;
+    rr = getRand();     //这里赋值后，rr不可以用范围循环
+    cout << *rr << endl;
 
 }
 
@@ -135,6 +145,6 @@ int * getRand()
         r[i] = rand();
     }
 
-    return r;
+    return r;   //此时传递的其实是一个内存地址指针
 }
 
