@@ -28,14 +28,9 @@ int main()
      * 
      * 
      */
-    string str1 = "hello";
+    string str1 = "hello汉字";
     string str2 = "world";
-
-    cout << (str1 + str2).size() << endl;
-
-
-
-
+    cout << str1 + str2 << endl;
+    cout << (str1 + str2).size() << endl;   //此时可以组合求size长度，一个汉字的长度是3
     
-
 }
