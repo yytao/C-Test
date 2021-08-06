@@ -5,6 +5,8 @@ using namespace std;
 void getSeconds(unsigned long *ptr);
 double getAverage(int *, int);
 
+//传递指针给函数
+
 int main()
 {
     
